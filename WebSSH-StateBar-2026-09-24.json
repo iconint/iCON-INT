@@ -1,0 +1,80 @@
+{
+  "exportedAt" : "2026-09-24T16:33:16Z",
+  "format" : "webssh-statebar",
+  "items" : [
+    {
+      "builtin" : "connection-info",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "style" : "bordered"
+    },
+    {
+      "builtin" : "separator",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "params" : {
+        "height" : "full"
+      },
+      "style" : "plain"
+    },
+    {
+      "builtin" : "progress",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "style" : "plain"
+    },
+    {
+      "builtin" : "separator",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "style" : "plain"
+    },
+    {
+      "builtin" : "recording",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "style" : "plain"
+    },
+    {
+      "builtin" : "separator",
+      "display" : "both",
+      "graph" : "off",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "style" : "plain"
+    },
+    {
+      "content" : "(function() {\n    return $vars.get('WEBSSH_CONNECTION_ADDRESS');\n})();",
+      "display" : "both",
+      "graph" : "off",
+      "icon" : "signpost.right.and.left",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "name" : "Address",
+      "style" : "plain",
+      "tags" : "*"
+    },
+    {
+      "content" : "(function() {\n    return {\n        label: $terminal.getCols() + 'x' + $terminal.getRows(),\n        icon: 'rectangle.expand.diagonal'\n    } \n})();",
+      "display" : "both",
+      "graph" : "off",
+      "icon" : "rectangle.expand.diagonal",
+      "interval" : 3,
+      "maxwidth" : 0,
+      "name" : "iCON INT",
+      "style" : "plain",
+      "tags" : "GITHUB.COM\/SURGEBANKING"
+    }
+  ],
+  "version" : 1
+}
