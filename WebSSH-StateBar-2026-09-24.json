@@ -1,6 +1,6 @@
 {
   "exportedAt" : "2026-09-24T16:33:16Z",
-  "format" : "webssh-statebar",
+  "format" : "-",
   "items" : [
     {
       "builtin" : "connection-info",
@@ -54,7 +54,7 @@
       "style" : "plain"
     },
     {
-      "content" : "(function() {\n    return $vars.get('WEBSSH_CONNECTION_ADDRESS');\n})();",
+      "content" : "(function() {\n    return $vars.get('_CONNECTION_ADDRESS');\n})();",
       "display" : "both",
       "graph" : "off",
       "icon" : "signpost.right.and.left",
